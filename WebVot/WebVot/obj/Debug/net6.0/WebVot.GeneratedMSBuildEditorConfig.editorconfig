@@ -9,45 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebVot
 build_property.RootNamespace = WebVot
-build_property.ProjectDir = C:\Ổ D\Code Web ASP.Net\QLDAPM\WebVot\WebVot\
+build_property.ProjectDir = C:\Users\phuoc\Source\Repos\WebVot\WebVot\WebVot\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Ổ D\Code Web ASP.Net\QLDAPM\WebVot\WebVot
+build_property.MSBuildProjectDirectory = C:\Users\phuoc\Source\Repos\WebVot\WebVot\WebVot
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Ổ D/Code Web ASP.Net/QLDAPM/WebVot/WebVot/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/phuoc/Source/Repos/WebVot/WebVot/WebVot/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ổ D/Code Web ASP.Net/QLDAPM/WebVot/WebVot/Views/Home/Index.cshtml]
+[C:/Users/phuoc/Source/Repos/WebVot/WebVot/WebVot/Views/Home/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuoc/Source/Repos/WebVot/WebVot/WebVot/Views/Home/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuoc/Source/Repos/WebVot/WebVot/WebVot/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuoc/Source/Repos/WebVot/WebVot/WebVot/Views/Home/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuoc/Source/Repos/WebVot/WebVot/WebVot/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ổ D/Code Web ASP.Net/QLDAPM/WebVot/WebVot/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Ổ D/Code Web ASP.Net/QLDAPM/WebVot/WebVot/Views/Shared/Error.cshtml]
+[C:/Users/phuoc/Source/Repos/WebVot/WebVot/WebVot/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ổ D/Code Web ASP.Net/QLDAPM/WebVot/WebVot/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/phuoc/Source/Repos/WebVot/WebVot/WebVot/Views/Shared/_LayoutHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuoc/Source/Repos/WebVot/WebVot/WebVot/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ổ D/Code Web ASP.Net/QLDAPM/WebVot/WebVot/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/phuoc/Source/Repos/WebVot/WebVot/WebVot/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ổ D/Code Web ASP.Net/QLDAPM/WebVot/WebVot/Views/_ViewImports.cshtml]
+[C:/Users/phuoc/Source/Repos/WebVot/WebVot/WebVot/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ổ D/Code Web ASP.Net/QLDAPM/WebVot/WebVot/Views/_ViewStart.cshtml]
+[C:/Users/phuoc/Source/Repos/WebVot/WebVot/WebVot/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ổ D/Code Web ASP.Net/QLDAPM/WebVot/WebVot/Views/Shared/_Layout.cshtml]
+[C:/Users/phuoc/Source/Repos/WebVot/WebVot/WebVot/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-myxd4nhdna
