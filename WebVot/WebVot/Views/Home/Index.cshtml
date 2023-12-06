@@ -8,15 +8,17 @@
     <div class="col mb-5">
         <div class="card h-100">
             <!-- Sale badge-->
-            @if(item.GiaBan != item.GiaGoc){
-            <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Giảm giá</div>}
+            @if (item.GiaBan != item.GiaGoc)
+            {
+                <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Giảm giá</div>
+            }
             <!-- Product image-->
-                <img class="card-img-top" src="~/images/products/@item.Hinhanh" alt="..." />
+            <img class="card-img-top" src="~/images/@item.Hinhanh" alt="..." />
             <!-- Product details-->
             <div class="card-body p-4">
                 <div class="text-center">
                     <!-- Product name-->
-                    <a class="text-decoration-none" asp-action="Details"asp-route-id="@item.MaSp">
+                    <a class="text-decoration-none" asp-action="Details" asp-route-id="@item.MaSp">
                         <h5 class="fw-bolder text-info">@item.TenSp</h5>
                     </a>
                     <!-- Product reviews-->
@@ -30,14 +32,14 @@
                     <!-- Product price-->
                     @if (item.GiaBan != item.GiaGoc)
                     {
-                    <span class="text-muted text-decoration-line-through">@item.GiaGoc đ</span>
+                        <span class="text-muted text-decoration-line-through">@item.GiaGoc đ</span>
                     }
                     <span class="text-danger fw-bolder">@item.GiaBan đ</span>
                 </div>
             </div>
             <!-- Product actions-->
             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                <div class="text-center"><a class="btn btn-outline-info mt-auto" asp-route-id="@item.MaSp" asp-action="AddToCart" >Chọn mua</a></div>
+                <div class="text-center"><a class="btn btn-outline-info mt-auto" asp-route-id="@item.MaSp" asp-action="AddToCart">Chọn mua</a></div>
             </div>
         </div>
     </div>

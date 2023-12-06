@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\phuoc\\Source\\Repos\\WebVot\\WebVot\\WebVot\\WebVot.csproj": {}
+    "C:\\Users\\phuoc\\source\\repos\\WebVot\\WebVot\\WebVot\\WebVot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\phuoc\\Source\\Repos\\WebVot\\WebVot\\WebVot\\WebVot.csproj": {
+    "C:\\Users\\phuoc\\source\\repos\\WebVot\\WebVot\\WebVot\\WebVot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phuoc\\Source\\Repos\\WebVot\\WebVot\\WebVot\\WebVot.csproj",
+        "projectUniqueName": "C:\\Users\\phuoc\\source\\repos\\WebVot\\WebVot\\WebVot\\WebVot.csproj",
         "projectName": "WebVot",
-        "projectPath": "C:\\Users\\phuoc\\Source\\Repos\\WebVot\\WebVot\\WebVot\\WebVot.csproj",
+        "projectPath": "C:\\Users\\phuoc\\source\\repos\\WebVot\\WebVot\\WebVot\\WebVot.csproj",
         "packagesPath": "C:\\Users\\phuoc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phuoc\\Source\\Repos\\WebVot\\WebVot\\WebVot\\obj\\",
+        "outputPath": "C:\\Users\\phuoc\\source\\repos\\WebVot\\WebVot\\WebVot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
