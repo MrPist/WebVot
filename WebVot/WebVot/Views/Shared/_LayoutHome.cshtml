@@ -4,6 +4,8 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+	<link href="~/lib/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
 </head>
 <body>
 	<header class="header shop">
@@ -26,8 +28,8 @@
 							<ul class="list-main">
 								<li><i class="ti-location-pin"></i> Địa chỉ</li>
 								<li><i class="ti-alarm-clock"></i> <a href="#">Giảm giá hằng ngày</a></li>
-								<li><i class="bi bi-person"></i> <a href="#">Tài khoản của tôi</a></li>
-								<li><i class="ti-power-off"></i><a href="login.html">Đăng nhập</a></li>
+								<li><i class="bi bi-person"></i> <a href="#">Tài khoản của tôi<partial name="_LoginPartial" /></a></li>
+							
 							</ul>
 						</div>
 						<!-- End Top Right -->

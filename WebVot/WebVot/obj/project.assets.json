@@ -11495,24 +11495,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\phuoc\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\VAN VANG\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\phuoc\\Source\\Repos\\WebVot\\WebVot\\WebVot\\WebVot.csproj",
+      "projectUniqueName": "C:\\Users\\VAN VANG\\Source\\Repos\\WebVot\\WebVot\\WebVot\\WebVot.csproj",
       "projectName": "WebVot",
-      "projectPath": "C:\\Users\\phuoc\\Source\\Repos\\WebVot\\WebVot\\WebVot\\WebVot.csproj",
-      "packagesPath": "C:\\Users\\phuoc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\phuoc\\Source\\Repos\\WebVot\\WebVot\\WebVot\\obj\\",
+      "projectPath": "C:\\Users\\VAN VANG\\Source\\Repos\\WebVot\\WebVot\\WebVot\\WebVot.csproj",
+      "packagesPath": "C:\\Users\\VAN VANG\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\VAN VANG\\Source\\Repos\\WebVot\\WebVot\\WebVot\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\phuoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\VAN VANG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
