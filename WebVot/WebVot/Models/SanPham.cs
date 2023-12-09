@@ -46,5 +46,6 @@ namespace WebVot.Models
         public virtual Nsx MaNsxNavigation { get; set; } = null!;
         [InverseProperty("MaSpNavigation")]
         public virtual ICollection<DonHang> DonHangs { get; set; }
+        public object MatKhau { get; internal set; }
     }
 }

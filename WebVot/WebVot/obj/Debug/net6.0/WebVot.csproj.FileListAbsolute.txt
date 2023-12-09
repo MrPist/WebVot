@@ -570,3 +570,15 @@ C:\Users\VAN VANG\Source\Repos\WebVot\WebVot\WebVot\obj\Debug\net6.0\refint\WebV
 C:\Users\VAN VANG\Source\Repos\WebVot\WebVot\WebVot\obj\Debug\net6.0\WebVot.pdb
 C:\Users\VAN VANG\Source\Repos\WebVot\WebVot\WebVot\obj\Debug\net6.0\WebVot.genruntimeconfig.cache
 C:\Users\VAN VANG\Source\Repos\WebVot\WebVot\WebVot\obj\Debug\net6.0\ref\WebVot.dll
+C:\Users\LAPTOP\OneDrive\Tài liệu\GitHub\WEb\WebVot\WebVot\obj\Debug\net6.0\WebVot.csproj.AssemblyReference.cache
+C:\Users\LAPTOP\OneDrive\Tài liệu\GitHub\WEb\WebVot\WebVot\obj\Debug\net6.0\WebVot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAPTOP\OneDrive\Tài liệu\GitHub\WEb\WebVot\WebVot\obj\Debug\net6.0\WebVot.AssemblyInfoInputs.cache
+C:\Users\LAPTOP\OneDrive\Tài liệu\GitHub\WEb\WebVot\WebVot\obj\Debug\net6.0\WebVot.AssemblyInfo.cs
+C:\Users\LAPTOP\OneDrive\Tài liệu\GitHub\WEb\WebVot\WebVot\obj\Debug\net6.0\WebVot.csproj.CoreCompileInputs.cache
+C:\Users\LAPTOP\OneDrive\Tài liệu\GitHub\WEb\WebVot\WebVot\obj\Debug\net6.0\WebVot.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LAPTOP\OneDrive\Tài liệu\GitHub\WEb\WebVot\WebVot\obj\Debug\net6.0\WebVot.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LAPTOP\OneDrive\Tài liệu\GitHub\WEb\WebVot\WebVot\obj\Debug\net6.0\WebVot.RazorAssemblyInfo.cache
+C:\Users\LAPTOP\OneDrive\Tài liệu\GitHub\WEb\WebVot\WebVot\obj\Debug\net6.0\WebVot.RazorAssemblyInfo.cs
+C:\Users\LAPTOP\OneDrive\Tài liệu\GitHub\WEb\WebVot\WebVot\obj\Debug\net6.0\WebVot.dll
+C:\Users\LAPTOP\OneDrive\Tài liệu\GitHub\WEb\WebVot\WebVot\obj\Debug\net6.0\refint\WebVot.dll
+C:\Users\LAPTOP\OneDrive\Tài liệu\GitHub\WEb\WebVot\WebVot\obj\Debug\net6.0\WebVot.pdb

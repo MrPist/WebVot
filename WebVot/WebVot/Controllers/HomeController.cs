@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,7 @@ namespace WebVot.Controllers
     public class HomeController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private object _pwHasher;
 
         public HomeController(ApplicationDbContext context)
         {
@@ -170,5 +172,66 @@ namespace WebVot.Controllers
         {
           return (_context.SanPhams?.Any(e => e.MaSp == id)).GetValueOrDefault();
         }
-    }
+        public IActionResult Login()
+        {
+            GetInfo();
+            return View();
+
+        }
+
+        private void GetInfo()
+        {
+            throw new NotImplementedException();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(string email, string matkhau)
+        {
+            var kh = await _context.SanPhams.FirstOrDefaultAsync(m => m.MaNcc == email);
+           // if (kh != null && _pwHasher.VerifyHashedPassword(kh, kh., matkhau) == PasswordVerificationResult.Success)
+            {
+                // dùng biến session để lưu thông tin người vừa đăng nhập
+               // HttpContext.Session.SetString("HoTenKH", kh.MatKhau);
+                // chuyển hướng về view
+                return RedirectToAction(nameof(Customer));
+            }
+
+            return RedirectToAction(nameof(Login));
+        }
+        public IActionResult Customer()
+        {
+            GetInfo();
+            return View();
+        }
+        public IActionResult Logout()
+        {
+            HttpContext.Session.SetString("khachhang", "");
+            GetInfo();
+            return RedirectToAction(nameof(Index));
+        }
+
+        //Get 
+        public IActionResult Register()
+        {
+            GetInfo();
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Register(string email, string matkhau, string hoten, string dienthoai)
+        {
+            var kh = new SanPhams();
+            kh.Email = email;
+            kh.MatKhau = _pwHasher.HashPassword(kh, matkhau);
+            kh.Ten = hoten;
+            kh.DienThoai = dienthoai;
+
+            _context.Add(kh);
+            _context.SaveChanges();
+
+            // yêu cầu 
+            return RedirectToAction(nameof(Login));
+        }
+    
+}
+
 }
