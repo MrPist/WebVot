@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fxhZy3SSMenWLPavqoG3oBxuQQSWKXmvNkuiGeq+IDzMlhojRfUbok4YBEaIbeoYMwhxEVeTOvyKN7xtVYvowA==",
+  "dgSpecHash": "u8uXXxMw2W0wzNhCK/iGV4rp3isHshwOIHDdAqQt6M9lRmPNdo2kU9ae29L46QcdVconAcPZ9+BnOGcKjwWz+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LAPTOP\\OneDrive\\Tài liệu\\GitHub\\WEb\\WebVot\\WebVot\\WebVot.csproj",
+  "projectFilePath": "C:\\Users\\LAPTOP\\OneDrive\\Tài liệu\\GitHub\\WB3\\WebVot\\WebVot\\WebVot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LAPTOP\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\LAPTOP\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

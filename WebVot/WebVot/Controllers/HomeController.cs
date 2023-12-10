@@ -174,7 +174,7 @@ namespace WebVot.Controllers
         }
         public IActionResult Login()
         {
-            GetInfo();
+          
             return View();
 
         }
@@ -184,53 +184,39 @@ namespace WebVot.Controllers
             throw new NotImplementedException();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Login(string email, string matkhau)
-        {
-            var kh = await _context.SanPhams.FirstOrDefaultAsync(m => m.MaNcc == email);
-           // if (kh != null && _pwHasher.VerifyHashedPassword(kh, kh., matkhau) == PasswordVerificationResult.Success)
-            {
-                // dùng biến session để lưu thông tin người vừa đăng nhập
-               // HttpContext.Session.SetString("HoTenKH", kh.MatKhau);
-                // chuyển hướng về view
-                return RedirectToAction(nameof(Customer));
-            }
+        //[HttpPost]
+        //public async Task<IActionResult> Login(string email, string matkhau)
+        //{
+        //    var kh = await _context.SanPhams.FirstOrDefaultAsync(m => m.MaNcc == email);
+        //   // if (kh != null && _pwHasher.VerifyHashedPassword(kh, kh., matkhau) == PasswordVerificationResult.Success)
+        //    {
+        //        // dùng biến session để lưu thông tin người vừa đăng nhập
+        //       // HttpContext.Session.SetString("HoTenKH", kh.MatKhau);
+        //        // chuyển hướng về view
+        //        return RedirectToAction(nameof(Customer));
+        //    }
 
-            return RedirectToAction(nameof(Login));
-        }
-        public IActionResult Customer()
-        {
-            GetInfo();
-            return View();
-        }
-        public IActionResult Logout()
-        {
-            HttpContext.Session.SetString("khachhang", "");
-            GetInfo();
-            return RedirectToAction(nameof(Index));
-        }
+        //    return RedirectToAction(nameof(Login));
+        //}
+        //public IActionResult Customer()
+        //{
+           
+        //    return View();
+        //}
+        //public IActionResult Logout()
+        //{
+        //    HttpContext.Session.SetString("khachhang", "");
+ 
+        //    return RedirectToAction(nameof(Index));
+        //}
 
-        //Get 
-        public IActionResult Register()
-        {
-            GetInfo();
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Register(string email, string matkhau, string hoten, string dienthoai)
-        {
-            var kh = new SanPhams();
-            kh.Email = email;
-            kh.MatKhau = _pwHasher.HashPassword(kh, matkhau);
-            kh.Ten = hoten;
-            kh.DienThoai = dienthoai;
-
-            _context.Add(kh);
-            _context.SaveChanges();
-
-            // yêu cầu 
-            return RedirectToAction(nameof(Login));
-        }
+        ////Get 
+        //public IActionResult Register()
+        //{
+        //    GetInfo();
+        //    return View();
+        //}
+        
     
 }
 

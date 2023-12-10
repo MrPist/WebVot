@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LAPTOP\\OneDrive\\Tài liệu\\GitHub\\WEb\\WebVot\\WebVot\\WebVot.csproj": {}
+    "C:\\Users\\LAPTOP\\OneDrive\\Tài liệu\\GitHub\\WB3\\WebVot\\WebVot\\WebVot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LAPTOP\\OneDrive\\Tài liệu\\GitHub\\WEb\\WebVot\\WebVot\\WebVot.csproj": {
+    "C:\\Users\\LAPTOP\\OneDrive\\Tài liệu\\GitHub\\WB3\\WebVot\\WebVot\\WebVot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LAPTOP\\OneDrive\\Tài liệu\\GitHub\\WEb\\WebVot\\WebVot\\WebVot.csproj",
+        "projectUniqueName": "C:\\Users\\LAPTOP\\OneDrive\\Tài liệu\\GitHub\\WB3\\WebVot\\WebVot\\WebVot.csproj",
         "projectName": "WebVot",
-        "projectPath": "C:\\Users\\LAPTOP\\OneDrive\\Tài liệu\\GitHub\\WEb\\WebVot\\WebVot\\WebVot.csproj",
+        "projectPath": "C:\\Users\\LAPTOP\\OneDrive\\Tài liệu\\GitHub\\WB3\\WebVot\\WebVot\\WebVot.csproj",
         "packagesPath": "C:\\Users\\LAPTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LAPTOP\\OneDrive\\Tài liệu\\GitHub\\WEb\\WebVot\\WebVot\\obj\\",
+        "outputPath": "C:\\Users\\LAPTOP\\OneDrive\\Tài liệu\\GitHub\\WB3\\WebVot\\WebVot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LAPTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
